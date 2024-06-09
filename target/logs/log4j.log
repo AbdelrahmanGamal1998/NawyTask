@@ -1,0 +1,282 @@
+[INFO ] 2024-06-09 12:59:32.119 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.8.1.20240210[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-06-09 12:59:32.140 [] ReportManager - Checking for engine updates...
+[INFO ] 2024-06-09 12:59:32.165 [] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2024-06-09 12:59:32.165 [] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2024-06-09 12:59:32.179 [main] ReportManager - TestNG run detected...
+[INFO ] 2024-06-09 12:59:32.625 [main] Utils - [TestNG] Running:
+  C:\Users\abdelrahman.gamal\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-06-09 12:59:32.705 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-06-09 12:59:32.782 [main] ReportManager - Initializing Important Links...
+[INFO ] 2024-06-09 12:59:32.789 [main] ReportManager - Initializing Properties...
+[INFO ] 2024-06-09 12:59:33.074 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of before class configuration method                                             
+                                                    'DemoPlazeTest.LoginPageTest.beforeClass'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-06-09 12:59:33.155 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-06-09 12:59:33.207 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized], extensions: [], prefs: {download.default_directory: D:\IdeaProjects\NawyTask_V...., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-06-09 12:59:33.210 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2024-06-09 12:59:33.212 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2024-06-09 12:59:33.487 [] ReportManager - Loaded OpenCV "opencv_java490".
+[DEBUG] 2024-06-09 12:59:35.489 [] BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
+[DEBUG] 2024-06-09 12:59:35.523 [] DefaultClientConnectionOperator - Connecting to api.github.com:443
+[DEBUG] 2024-06-09 12:59:36.048 [] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-06-09 12:59:36.050 [] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-06-09 12:59:36.050 [] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-06-09 12:59:36.052 [] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-06-09 12:59:36.052 [] DefaultClientConnection - Sending request: GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2024-06-09 12:59:36.053 [] wire -  >> "GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.057 [] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.058 [] wire -  >> "Host: api.github.com[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.059 [] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.059 [] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.1)[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.059 [] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.060 [] wire -  >> "[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.060 [] headers - >> GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2024-06-09 12:59:36.060 [] headers - >> Accept: */*
+[DEBUG] 2024-06-09 12:59:36.060 [] headers - >> Host: api.github.com
+[DEBUG] 2024-06-09 12:59:36.060 [] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-06-09 12:59:36.062 [] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.1)
+[DEBUG] 2024-06-09 12:59:36.062 [] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-06-09 12:59:36.299 [] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.305 [] wire -  << "Server: GitHub.com[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.306 [] wire -  << "Date: Sun, 09 Jun 2024 09:59:36 GMT[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.307 [] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.307 [] wire -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.307 [] wire -  << "Vary: Accept, Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.307 [] wire -  << "ETag: W/"c8ebfa5e3992b292114a63bd9c9b87ebd36819571de9fbc61d16deb5e3eecaaa"[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.308 [] wire -  << "Last-Modified: Thu, 23 May 2024 20:47:01 GMT[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.308 [] wire -  << "X-GitHub-Media-Type: github.v3; format=json[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.308 [] wire -  << "x-github-api-version-selected: 2022-11-28[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.309 [] wire -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.309 [] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.309 [] wire -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.309 [] wire -  << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.310 [] wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.310 [] wire -  << "X-XSS-Protection: 0[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.310 [] wire -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.310 [] wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.310 [] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.310 [] wire -  << "X-RateLimit-Limit: 60[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.310 [] wire -  << "X-RateLimit-Remaining: 52[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.310 [] wire -  << "X-RateLimit-Reset: 1717929225[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.311 [] wire -  << "X-RateLimit-Resource: core[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.311 [] wire -  << "X-RateLimit-Used: 8[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.311 [] wire -  << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.311 [] wire -  << "Content-Length: 1372[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.311 [] wire -  << "X-GitHub-Request-Id: CB5A:902BE:A6E9C:A7F2D:66657D07[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.311 [] wire -  << "[\r][\n]"
+[DEBUG] 2024-06-09 12:59:36.315 [] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-06-09 12:59:36.317 [] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-06-09 12:59:36.319 [] headers - << Server: GitHub.com
+[DEBUG] 2024-06-09 12:59:36.319 [] headers - << Date: Sun, 09 Jun 2024 09:59:36 GMT
+[DEBUG] 2024-06-09 12:59:36.320 [] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2024-06-09 12:59:36.320 [] headers - << Cache-Control: public, max-age=60, s-maxage=60
+[DEBUG] 2024-06-09 12:59:36.321 [] headers - << Vary: Accept, Accept-Encoding, Accept, X-Requested-With
+[DEBUG] 2024-06-09 12:59:36.321 [] headers - << ETag: W/"c8ebfa5e3992b292114a63bd9c9b87ebd36819571de9fbc61d16deb5e3eecaaa"
+[DEBUG] 2024-06-09 12:59:36.321 [] headers - << Last-Modified: Thu, 23 May 2024 20:47:01 GMT
+[DEBUG] 2024-06-09 12:59:36.321 [] headers - << X-GitHub-Media-Type: github.v3; format=json
+[DEBUG] 2024-06-09 12:59:36.322 [] headers - << x-github-api-version-selected: 2022-11-28
+[DEBUG] 2024-06-09 12:59:36.322 [] headers - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+[DEBUG] 2024-06-09 12:59:36.322 [] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2024-06-09 12:59:36.323 [] headers - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+[DEBUG] 2024-06-09 12:59:36.323 [] headers - << X-Frame-Options: deny
+[DEBUG] 2024-06-09 12:59:36.323 [] headers - << X-Content-Type-Options: nosniff
+[DEBUG] 2024-06-09 12:59:36.323 [] headers - << X-XSS-Protection: 0
+[DEBUG] 2024-06-09 12:59:36.323 [] headers - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+[DEBUG] 2024-06-09 12:59:36.325 [] headers - << Content-Security-Policy: default-src 'none'
+[DEBUG] 2024-06-09 12:59:36.325 [] headers - << Content-Encoding: gzip
+[DEBUG] 2024-06-09 12:59:36.325 [] headers - << X-RateLimit-Limit: 60
+[DEBUG] 2024-06-09 12:59:36.325 [] headers - << X-RateLimit-Remaining: 52
+[DEBUG] 2024-06-09 12:59:36.326 [] headers - << X-RateLimit-Reset: 1717929225
+[DEBUG] 2024-06-09 12:59:36.326 [] headers - << X-RateLimit-Resource: core
+[DEBUG] 2024-06-09 12:59:36.326 [] headers - << X-RateLimit-Used: 8
+[DEBUG] 2024-06-09 12:59:36.327 [] headers - << Accept-Ranges: bytes
+[DEBUG] 2024-06-09 12:59:36.327 [] headers - << Content-Length: 1372
+[DEBUG] 2024-06-09 12:59:36.327 [] headers - << X-GitHub-Request-Id: CB5A:902BE:A6E9C:A7F2D:66657D07
+[DEBUG] 2024-06-09 12:59:36.370 [] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2024-06-09 12:59:36.372 [] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xb5]X[0xb]o[0xdb]6[0x10][0xfe]+[0x82][0x8a]b@fQO[0xbf][0x4][0x14]][0xdb][0xa4]/ [0xcd][0xba][0x6][0xd8][0xb0][0xae]0h[0x89][0x96][0xe8]P"KRI\#[0xff]}GI[0xb6]k[0xad]s[0xd2]"
+[DEBUG] 2024-06-09 12:59:36.372 [] wire -  << "Z[0x85][0x1][0x8b][0xa6][0xc5][0xef]>[0x1e][0x8f][0xdf][0xf1][0xb8][0xb6]+[0xc9][0xec][0xd8][0xce][0xb5][0x16]*v],([0xca][0xa8][0xce][0xab]9Jx[0xe1]J"[0xb8]r?[0xe4]x[0xa1]_[0xbf]w?[0xbc]~[0xf6][0xf2]rv[0xf6][0xee][0xd5][0x9b]wg[0xf0][0x17]#X[0x11][0xe5][0xfa][0xc3]q[0xe0][0x8d][0xc3]hl[0xf]l[0xac][0x14][0xd1]j[0xd6][0x1f][0xa6][0xdb] [0x2]t%[0x18][0xc7]i[0x7][0xba][0xe9]T?L[0xb9][0x85]_?-qA[0x6][0xc][0xcf][0x9][0xbb][0x3][[0xb9].X[0xc7][0xd2]WN9[0xec][0xe][0x8d]3w[0x82][0x2][0x14]xA[0xe4][\r][0x83][0x10][0xe0]hj[0xc7][/[0x81][0x93]*[0x9d]si[0xc7]k[0x9b][0xf1][0x8c][0x96][0xe0][0xfd][0x6][0xdc][0xc1][0x89][0xa6][0xbc]T[0x1f][0xe7]\j[0x87]E[0xfe]d:[0x9]&[0xc1][0xc0].yJf[0x6][0xc9]>?=[0x1f][0xbd]/[0xa6][0xde][0xbb][0xd3][0xb3][0xe8][0xe2]2[][0x9c][0xbe]yb|[0x8d]5[0x96]][0xdf][0xd7][0x9d][0x1b][0x7]U[0x8a][0xc8][0x84][0x97][0x9a][0x94][0xba]^^Z[0xc2][0xea][0x85][0xa3][0xc9][0xd3][0xeb]'[0x11] d[0xb2][0xc5][0xa8][0xcd][0x18][0x9f][0x1f][0x8a][\r][0x3][0xa6][0xdc]}[0xea][0x8f][0x87][0xcf][0x81][0xfc][0xe3][0xe1][0xe9][0xbd]N[0xc4]Bt[0x7][0xc3][0x98][0x5]g[0x8c][0xdf][0x0]nw[0x1a][0xfb]ay[0xd0][0xb4][0xbb][0x5][0xd9][0x2][0xd2]2;[0x1e][0x10]@[0xd6].[0xd7]9[0x1][0x1f][0xc3][0xd4]M[0x9c]dT[0xdd][0x17][0xed][0x87][0xa9][0xd6][0x0]kp[0xa2][0xd2][0xb0][0xb6][0x6]R[0xc1]rI[0xd2][0x8d][0xf3][0xce][0xb6]<[0xc][0xda]B[0x0][0xd9][0x9b][0x12]x[0xae][0xeb]]\cWs[0x95]H*[0xea](;[0xc6]!{@[0x0][0xcc]e[0x86]K[0xfa][0x5][0x1f][\r][0xc]@[\n]"
+[DEBUG] 2024-06-09 12:59:36.372 [] wire -  << "[0xf0]j[0xd9]9[0x86]`[\r][0x0]@[0xe4][0x1a]B[0xfd]([0xa4][0x6]a[0xed][\n]"
+[DEBUG] 2024-06-09 12:59:36.372 [] wire -  << "I[0xaf]q[0xb2]2n[0x94]$![0xf4][0x1a][0xd6][0xe8]x[0xf4][0xe][0x14][0x80][0xeb][0x95] [0xb0][0xf9][0x9e]sm[0x16][0x8c]j2[0xc3]iaDb[0x81][0x99]"w_[0xeb][0xc0][0x1f]g[0xb3][0xab][0x9b][0xd3][0x8b][0x17][0xaf][0xc8][0xe5]HEo[0xff]R[0xea][0x8b][0x1][0xc0][0xd9][0xcc][0xa8][0x19][0x80]td[0x8]"+#z[0x6][0x1b][0xbf][0xa0][0x9a][0xaa][0x1c][0xde](0@[0x3][0xe6]7[0xdf]O%[0xc8]~kx`[0xb]IZ[0xc9][0xdf]v%[0x92]`[\r]~[0xc0][0xf0][0x96]m[0xf4][0xce][0xf1][0x86]N[0x10]^[0x6]^[0x1c][0x8d][0xe2][0xd0][0xfb][0x1b][0xa0]E5g`[0xeb][0xde][0x1a][0xc7][0x9e]o[0xde]jU>[0xfe][0xf8][0xc9]L@[0xce]1[0xeb][0xea][0xef][0xc3][0x13]S;[0xbe]+[0xc2]_[0xa8]8[\n]"
+[DEBUG] 2024-06-09 12:59:36.372 [] wire -  << "[0xb6][0x1d][0xdf][0x85][0x9d][0xf3]t[0x5][0xb3][0xf4][0xc8][0xfa]3[0xc7][0xfa][0x17]e[0xbd][0xc8]q[0x99][0x91][0xf4][0x9f][0xf2][0xc4]z^[0x15][0xc2][0x82][0x90]FX[0xe0]$'[0xa8][0xc0][0x10][0x8e]H[0xb0][\n]"
+[DEBUG] 2024-06-09 12:59:36.372 [] wire -  << "T_[0xc5][0xf5]/g[0x89][0xa5][0xd3][0xf4]X[0xb][0xc9][0xb]+D![0xf2],[0xcd][0xa1][0x11]Ac[0xbe][0xb2]~K[0x89] e[0x8a]AX-ZZ[0x9b]L}_B[0x12][0x15]c[0xa0][0xee][0xd3]h[0xcb]D[0xe9][0x17]Xr[0x86][0x95][0xb]I[0xba][0x12]NM[0xa0][0xb1][0x1a][0xa1][0xa1][0xb1]9[0xec][0xc1]^[0xf8][0xd0][0x99]g"[0xeb][0xcc][0x1c][0x92]f3[0xf3][0x0][0x85]=0[0x9][0x1e][0xca][0xe4][0xbf]k`\[0xdf][0xae][0x81]4[0x93][0x91][0xe7]=[0x94][0xc9][0xb7]|[0x12]n|[0x12][0x1d][0xcd]d8[0x9d]n[0x99]P[0x8e][0x92]*[0xa9][0x8a]9[0x91][0xf1][0xa6][0xe1][0x8][0x9a]ps@[0x0]Y [0xb2][0x9][0x8d]1[0xf2]G[0xc8]7[0x1c][0xa0]5[0xee]%$[0xc7][0x87]I,[0xe1][0x14][0xf2][0xd3]l[0x8f][0xe][0xdb][0xd6]D[0xe9]2[0xfb]i[0xd6][0x87]{[0x81][0xa0][0xe0][0x8]][0xd2][0xaa][0xc8]?[0xa3]M3[0xde]4@[0x18]6^[0x88][0x90]?mV [0x82]Se[0xf]+0[0xf2][0xf6]7i3[0xe9][0xb8]3wo[0xbb][0xea][0x1e][0xec][0xcb]c[0x85]h[0xe4][0xed][0xe6][0xe][0x19][0x8][0x15]+[0xf5][0x99][0xc5][0xf5][0xb7][0x3][0x11]W[0x92]Ds[0xe9],[0x1b][0xcf]O6"8[0xe9]E[0x4]G[0xde]n[0xd5][0x13][0x9e]B[0x1a]w[0x9b][0x87][0x83]K[0xcc]V[0x8a]*'a[0xb4]=~o[0x4][0xb1][0x95][0x80][0x8][0x18][0xf4]![0x1][0xbb][0x8d]gf[0xbf][0xc0]J[0x13]y[0[0xb4][0xc4][0xc9][0x95][0xe2]%J[0xe1][0x9c]nr[0xdc]v8[0x9b][0xe]g[0x99]^M[0x1a]RA[0xb3][0x1]a+[0xd6][0xad]>hM[0xb6][0x1]ihe[0x9c]g[0x8c][0xa0][0xac][0x82][0xd8][0x8b][0xeb][0xef]6)[0x85][0xc8]G[0x9e][0xb3][0x94][0xa4][0xd6][0xa2][0x10][0xca][0x9b][0xe6][0xd7][0xf1]Q[0xb1][0xd3][0x2][0x93]([0x1f][0xbc]#[0xea]}[0x0]\`G[0x0][0xb3][0xe3][0xa3][0xd3][0xdf][0xa5]I[0xc3][0xa3][0xe0][0xc9][0x15][0xd5]<n[0x9f][0x10][0xa1]0[0xf5]:?[0xf][0x91]o[0xc][0x9a]d[0x89]|pC[0xf][0xa6];yJ[0x9][0xd8][0xb][0xcb][0x18]7[0xcf][0x1b][0x2]Y[0xba][0x95]b[0x1f]MQP[0xa7][0xc8][0xa6][0xd5]G[0x4][0xf8][0xfe]^[0x4][0x10][0x81][0xb][0x94][0x13][0xdc][0x8]S[0xbc]m97d[0xde][0xc6][0x2][0x82][0x89]7)i[0xd8][0x87].[0xf8][0xf7][0xa4][0xa4][0xbd]l`[0xf2]O[0x93][0x89]&[0xbd][0xb8]~[0x17][0xfe][0xdf][0x91][0xe][0xfb]&qO:[0xec][0xc8]r[0xdf][0xd6]ki|Io[0xad][0xa4]R[0x1a][0x2][0x9c]7[0xe5]a[0x1d][0xd7][0xe7][0xd0][0x85][0x17][0xf8]Y[0x86][0x8b][0xd5][0xf7][0x9f]=G^[0x1d][[0x82][\n]"
+[DEBUG] 2024-06-09 12:59:36.373 [] wire -  << "[0xc2][0xe0]<[0xe1],[0xe8]-Q[\r].[0xcf][0xf1][0xfc][0x9c][0xe7][0x94][0xfc][0x0]j[0xd0][0xa0]J.[0x88][0xd4][0x86][0x16][0xd5]V_[0xd0][0xf5]A[0xed][0xf7][0x96][0xb0][0xa5]8[0xa3])][0xd0][0xa4].l{`^[0xa7][0xdd][0xaf][0xab]2[0xab]-[0xa9],[0xa8][0xae]D[0xf][0x6]@[0xc5][0xcc][0xe7][0xe4][0xe4]%[0x9c][0xfe][0xdb]R[0x4].[0x99]NN[0xe2][0x7][0xd7][\r][0x90][0x7][0x4][0x96]dW[0xe7]D x[0x8]ujI[0xa8][0xfc][0x9a][0xcb]*s[0x8d]u[0xf0][0x9a][0xe8][0xbb][0xae][0x10][0xe1][0xaa]b[0x83][0xb][0x85] [0xd7][0x98]A[0xb9]Z[0x95]P_[0x86][0x3][0xfb]W[0x1f][0xae][0xd1][0x6][0xb6][0x3][0xf]o`3\eP[0xc2]B+[0xe7]\b([0xc2][0xa0][0x9]'[0x89][0x5]\[0x8e][0xc0][0xf5][0x95][0xe9]'X[0xc2]H[0x18]"A[0xce]I[0xd3]$+[0xa2][0xe0]_([0xa4][0xb][0xb8][0x1a][0xa8]/B6[0x16][0xee][0xfe][0x5][0x19]|I[0x82][\r][0x15][0x0][0x0]"
+[DEBUG] 2024-06-09 12:59:36.373 [] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2024-06-09 12:59:36.890 [] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@593f7fd0
+[DEBUG] 2024-06-09 12:59:36.892 [] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[WARN ] 2024-06-09 12:59:37.953 [main] ReportManager - Jun 09, 2024 12:59:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2024-06-09 12:59:37.953 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 125, returning the closest version; found: 121; Please update to a Selenium version that supports CDP version 125
+[INFO ] 2024-06-09 12:59:37.967 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2024-06-09 12:59:38.029 [main] ReportManager - Target URL: "https://demoblaze.com/index.html"
+[INFO ] 2024-06-09 12:59:38.077 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-06-09 12:59:38.863 [] ReportManager - Engine Update check done for the day. 👍
+[INFO ] 2024-06-09 12:59:39.408 [main] ReportManager - Navigate to url "https://demoblaze.com/index.html".
+[INFO ] 2024-06-09 12:59:39.423 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-06-09 12:59:39.430 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeClass'
+[INFO ] 2024-06-09 12:59:39.457 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                          Test Method: 'DemoPlazeTest.LoginPageTest.verifyTestCasePage'                                          
+                                 Test Description: 'Verify navigation to the Test Cases page from the homepage'                                 
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-06-09 12:59:39.942 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-06-09 12:59:40.038 [main] ReportManager - Click "Log in".
+[DEBUG] 2024-06-09 12:59:40.586 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-06-09 12:59:40.744 [main] ReportManager - Type "abdelrahman" into "By.id: loginusername".
+[DEBUG] 2024-06-09 12:59:40.934 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-06-09 12:59:40.997 [main] ReportManager - Type "123" into "By.id: loginpassword".
+[INFO ] 2024-06-09 12:59:41.295 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-06-09 12:59:41.375 [main] ReportManager - Click "Log in".
+[INFO ] 2024-06-09 12:59:41.432 [main] ReportManager - Waiting for element to be present; elementLocator "By.xpath: //div[@class='modal-footer']//button[contains(text(),'Log in')]", isExpectedToBeVisible"false"...
+[INFO ] 2024-06-09 12:59:42.221 [main] ReportManager - Wait to be ready "Waited for the element's state of visibility to be (false). Element locator (By.xpath: //div[@class='modal-footer']//button[contains(text(),'Log in')])" against "Log in".
+[INFO ] 2024-06-09 12:59:42.667 [main] ReportManager - Perform navigation action "Navigate REFRESH to".
+[INFO ] 2024-06-09 12:59:42.727 [main] ReportManager - Waiting for element to be present; elementLocator "By.cssSelector: #nameofuser", isExpectedToBeVisible"false"...
+[ERROR] 2024-06-09 13:00:43.305 [main] ReportManager - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=125.0.6422.142)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8c2b29f61fcae21c182d6c4a1c9319cb, executeCdpCommand {cmd=Page.getLayoutMetrics, params={}}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\ABDELR~1.GAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52060}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52060/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:45205/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c2b29f61fcae21c182d6c4a1c9319cb
+ java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+ java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+ java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+ org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:592)
+ org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:39)
+ org.openqa.selenium.chromium.AddHasCdp$1.executeCdpCommand(AddHasCdp.java:59)
+ org.openqa.selenium.chromium.ChromiumDriver.executeCdpCommand(ChromiumDriver.java:341)
+ com.shaft.gui.internal.image.ScreenshotHelper.takeFullPageScreenshotUsingCDP(ScreenshotHelper.java:137)
+ com.shaft.gui.internal.image.ScreenshotHelper.makeFullScreenshot(ScreenshotHelper.java:101)
+ com.shaft.gui.internal.image.ScreenshotManager.takeFullPageScreenshot(ScreenshotManager.java:158)
+ com.shaft.gui.internal.image.ScreenshotManager.takeScreenshot(ScreenshotManager.java:66)
+ com.shaft.gui.internal.image.ScreenshotManager.takeAIHighlightedScreenshot(ScreenshotManager.java:214)
+ com.shaft.gui.internal.image.ScreenshotManager.internalCaptureScreenShot(ScreenshotManager.java:192)
+ com.shaft.gui.internal.image.ScreenshotManager.takeScreenshot(ScreenshotManager.java:45)
+ com.shaft.gui.element.internal.ElementActionsHelper.takeScreenshot(ElementActionsHelper.java:610)
+ com.shaft.gui.element.internal.ElementActionsHelper.createReportAttachments(ElementActionsHelper.java:1090)
+ com.shaft.gui.element.internal.ElementActionsHelper.reportActionResult(ElementActionsHelper.java:1125)
+ com.shaft.gui.element.internal.ElementActionsHelper.failAction(ElementActionsHelper.java:1023)
+ com.shaft.gui.element.internal.ElementActionsHelper.failAction(ElementActionsHelper.java:979)
+ com.shaft.gui.element.ElementActions.waitToBeReady(ElementActions.java:909)
+ com.shaft.gui.element.ElementActions.waitToBeInvisible(ElementActions.java:922)
+ DemoPlazePages.LoginPage.validateTheLoggedUser(LoginPage.java:41)
+ DemoPlazeTest.LoginPageTest.verifyTestCasePage(LoginPageTest.java:19)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+ java.base/java.lang.reflect.Method.invoke(Method.java:580)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+ org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+ org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+ org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+ org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+ java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+ org.testng.TestRunner.privateRun(TestRunner.java:819)
+ org.testng.TestRunner.run(TestRunner.java:619)
+ org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+ org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+ org.testng.SuiteRunner.run(SuiteRunner.java:336)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+ org.testng.TestNG.runSuites(TestNG.java:1134)
+ org.testng.TestNG.run(TestNG.java:1101)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+[INFO ] 2024-06-09 13:00:43.310 [main] ReportManager - Setting "screenshotParams_screenshotType" property with "VIEWPORT".
+[INFO ] 2024-06-09 13:00:43.326 [main] ReportManager - Successfully created attachment 'Screenshot manager - Get  stack  trace - Exception Stacktrace'
+[INFO ] 2024-06-09 13:00:43.346 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: verifyTestCasePage'
+[INFO ] 2024-06-09 13:00:43.347 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                               Finished Execution of Test Method: 'DemoPlazeTest.LoginPageTest.verifyTestCasePage'                               
+                                 Test Description: 'Verify navigation to the Test Cases page from the homepage'                                 
+                                                              Test Status: 'Failed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2024-06-09 13:00:43.476 [Finalizer] DefaultClientConnection - Connection 0.0.0.0:52058<->140.82.121.5:443 closed
+[INFO ] 2024-06-09 13:00:43.532 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                    'DemoPlazeTest.LoginPageTest.afterMethod'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-06-09 13:00:43.694 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-06-09 13:00:43.696 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2024-06-09 13:00:43.716 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-06-09 13:00:43.717 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2024-06-09 13:00:43.720 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log: 20240609-130043'
+[INFO ] 2024-06-09 13:00:43.725 [main] ReportManager - Successfully created attachment 'HTML - Checkpoints Report'
+[INFO ] 2024-06-09 13:00:43.733 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Issues log CSV: 20240609-130043'
+[INFO ] 2024-06-09 13:00:43.736 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: engineTeardown'
+[INFO ] 2024-06-09 13:00:43.746 [main] ReportManager - ===============================================
+[INFO ] 2024-06-09 13:00:43.746 [main] ReportManager - Default Suite
+[INFO ] 2024-06-09 13:00:43.746 [main] ReportManager - Total tests run: 1, Passes: 0, Failures: 1, Skips: 0
+[INFO ] 2024-06-09 13:00:43.746 [main] ReportManager - ===============================================
+[INFO ] 2024-06-09 13:00:43.749 [] ReportManager - Generating Allure Report Archive...
+[INFO ] 2024-06-09 13:00:43.750 [] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           This test run was powered by [1mSHAFT v.8.1.20240210[22m                                           
+                               SHAFT [1;4mis and will always be 100% FREE[22;24m for commercial and private use                               
+                                                   in compliance with the [1mMIT license[22m                                                   
+                                   Visit SHAFT's user guide [4mhttps://shafthq.github.io/[24m to learn more                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-06-09 13:00:44.385 [] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                         Test Execution Summary Results                                                         
+                                              Total Cases: 1 --> Passed: 0 | Failed: 1 | Skipped: 0                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[WARN ] 2024-06-09 13:00:47.543 [] ReportManager - Exception in thread "" java.lang.AssertionError: File Action "CopyFolder" failed. Root cause: "java.nio.file.FileSystemException: D:\IdeaProjects\NawyTask_V.0.01\target\allure-report\index.html -> allure-report\index.html: The process cannot access the file because it is being used by another process"
+[WARN ] 2024-06-09 13:00:47.544 [] ReportManager - 	at org.testng.Assert.fail(Assert.java:99)
+[WARN ] 2024-06-09 13:00:47.545 [] ReportManager - 	at com.shaft.tools.io.internal.FailureReporter.fail(FailureReporter.java:38)
+[WARN ] 2024-06-09 13:00:47.545 [] ReportManager - 	at com.shaft.cli.FileActions.failAction(FileActions.java:674)
+[WARN ] 2024-06-09 13:00:47.545 [] ReportManager - 	at com.shaft.cli.FileActions.failAction(FileActions.java:669)
+[WARN ] 2024-06-09 13:00:47.545 [] ReportManager - 	at com.shaft.cli.FileActions.copyFolder(FileActions.java:450)
+[WARN ] 2024-06-09 13:00:47.546 [] ReportManager - 	at com.shaft.tools.io.internal.AllureManager.writeAllureReport(AllureManager.java:171)
+[WARN ] 2024-06-09 13:00:47.546 [] ReportManager - 	at com.shaft.tools.io.internal.AllureManager.openAllureReportAfterExecution(AllureManager.java:41)
+[WARN ] 2024-06-09 13:00:47.546 [] ReportManager - 	at java.base/java.lang.VirtualThread.run(VirtualThread.java:309)
+[WARN ] 2024-06-09 13:00:47.546 [] ReportManager - Caused by: java.nio.file.FileSystemException: D:\IdeaProjects\NawyTask_V.0.01\target\allure-report\index.html -> allure-report\index.html: The process cannot access the file because it is being used by another process
+[WARN ] 2024-06-09 13:00:47.546 [] ReportManager - 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+[WARN ] 2024-06-09 13:00:47.546 [] ReportManager - 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+[WARN ] 2024-06-09 13:00:47.546 [] ReportManager - 	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:220)
+[WARN ] 2024-06-09 13:00:47.548 [] ReportManager - 	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:282)
+[WARN ] 2024-06-09 13:00:47.548 [] ReportManager - 	at java.base/java.nio.file.Files.copy(Files.java:1304)
+[WARN ] 2024-06-09 13:00:47.548 [] ReportManager - 	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:807)
+[WARN ] 2024-06-09 13:00:47.548 [] ReportManager - 	at org.apache.commons.io.FileUtils.doCopyDirectory(FileUtils.java:1304)
+[WARN ] 2024-06-09 13:00:47.548 [] ReportManager - 	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:684)
+[WARN ] 2024-06-09 13:00:47.549 [] ReportManager - 	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:615)
+[WARN ] 2024-06-09 13:00:47.549 [] ReportManager - 	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:516)
+[WARN ] 2024-06-09 13:00:47.549 [] ReportManager - 	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:487)
+[WARN ] 2024-06-09 13:00:47.549 [] ReportManager - 	at com.shaft.cli.FileActions.copyFolder(FileActions.java:446)
+[WARN ] 2024-06-09 13:00:47.549 [] ReportManager - 	... 3 more

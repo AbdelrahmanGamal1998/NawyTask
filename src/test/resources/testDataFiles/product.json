@@ -1,0 +1,19 @@
+{
+    "login": {
+      "username": "abdelrahman",
+      "password": "123"
+    },
+    "productsPage": {
+      "productName": "Apple monitor 24"
+    },
+      "purchaseFormDetails": {
+        "name": "abdo",
+        "country": "egypt",
+        "city": "cairo",
+        "creditCard": "2222222222",
+        "month": "july",
+        "year": "2024"
+      },
+      "successMessage": "Thank you for your purchase!"
+    }
+  }
